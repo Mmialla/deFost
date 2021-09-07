@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body class="">
+
+    <section class="py-5">
+        <nav class="navbar fixed-top navbar-expand-sm float-end navbar-dark bott shadow bg-success ">
+            <div class="container-fluid">
+                <a class="navbar-brand px-5 fw-bolder" href="#">DeFost</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+                <div class="collapse navbar-collapse justify-content-end px-5 fw-bold" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="" href="./home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./package.html">Packages</a>
+                        </li>
+                        <li class=" nav-item ">
+                            <a class="nav-link active" href="./contact.html">Contact us</a>
+                        </li>
+                        <li class="nav-item ">
+                            <button type="button" class="btn fw-bolder text-white border-light border-2">Register</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section id="contactform" class="bg-sec" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
+        <div class="container-xxl">
+            <div class="text-center">
+                <h2>Get In Touch </h2>
+                <p class="lead">...questions to ask? Directly reach us</p>
+            </div>
+            <form class="row g-3 justify-content-center align-content-center px-5">
+                <div class="col-md-4 px-5">
+                    <label for="first name" class="form-label">First Name</label>
+                    <input type="text" name="fname" class="form-control" placeholder="Ex. Meshy" id="fname">
+                    <label for="last name" class="form-label">Last name</label>
+                    <input type="last name" name="lname" class="form-control" placeholder="Ex. Mialla" id="lname">
+                </div>
+                <div class="col-md-4 px-5 p">
+                    <label for="phone number" class="form-label">Phone number</label>
+                    <input type="text" name="pnumber" class="form-control" placeholder="+255 684 198 345" id="pnumber">
+                    <label for="Phone" class="form-label">Email</label>
+                    <input type="text" name="email" class="form-control" id="email" placeholder="Ex. meshy112@outlook.com">
+                </div>
+
+                <div class="container-sm col-lg-8 col-md-8 px-5">
+                    <div class="">
+                        <label for="exampleFormControlTextarea1" class="form-label"></label>
+                        <textarea class="form-control" id="query" rows="3" placeholder="How can we help you?"></textarea>
+                    </div>
+                </div>
+
+
+                <div class="container-sm col-md-8 text-center d-grid px-5">
+                    <button type="submit" class="btn btn-success btn-block" id="submit" onclick="myFunction()" value="submit">Submit</button>
+                </div>
+
+                <br>
+
+
+            </form>
+        </div>
+        </div>
+    </section>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
+
+</body>
+
+</html>
