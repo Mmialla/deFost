@@ -5,10 +5,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"> CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
     <title>DeFost</title>
 </head>
 
@@ -28,10 +26,10 @@
                                 </i> Home</a>
                         </li>
                         <li class=" nav-item ">
-                            <a class="nav-link active" href="./package.html ">Packages</a>
+                            <a class="nav-link active" href="#packages">Packages</a>
                         </li>
                         <li class=" nav-item ">
-                            <a class="nav-link active" href="./contact.html ">Contact us</a>
+                            <a class="nav-link active" href="#contactform">Contact us</a>
                         </li>
                         <li class="nav-item d-none d-md-block border-2 border-white">
                             <!-- <a class="nav-link active border border-3 rounded-3   " href="./login.html">Log in</a> -->
@@ -77,8 +75,148 @@
             </div>
         </div>
     </section>
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
+
+    <section id="packages" class="mt-5 py-5 bg-light">
+        <div class=" container-lg col-sm-4 ">
+            <div class="text-center ">
+                <h2>Pricing Plans</h2>
+                <p class="lead text-muted "> Choose A Pricing Plan that Suits You</p>
+            </div>
+        </div>
+        <div class="container-sm border-none text-center">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Basic plan</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, vitae omnis laboriosam laborum totam quisquam recusandae ipsam, adipisci, nam autem sunt qui commodi beatae illo deserunt est excepturi accusamus non.</p>
+                            <a href="#" class="btn btn-success fw-bold">1 Month</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">VIP plan
+                            </h5>
+                            <p class="card-text">
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, vitae omnis laboriosam laborum totam quisquam recusandae ipsam, adipisci, nam autem sunt qui commodi beatae illo deserunt est excepturi accusamus non.</p>
+                            </p>
+                            <a href="#" class="btn btn-success fw-bold">3 Month</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Premium plan</h5>
+                            <p class="card-text">
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, vitae omnis laboriosam laborum totam quisquam recusandae ipsam, adipisci, nam autem sunt qui commodi beatae illo deserunt est excepturi accusamus non.</p>
+                            </p>
+                            <a href="#" class="btn btn-success fw-bold">6 Month</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contactform" class="bg-sec bg-white py-5">
+        <div class="container-xxl">
+            <div class="text-center">
+                <h2>Get In Touch </h2>
+                <p class="lead">...questions to ask? Directly reach us</p>
+            </div>
+            <form class="row g-3 justify-content-center align-content-center px-5">
+                <div class="col-md-4 px-5">
+                    <label for="first name" class="form-label">First Name</label>
+                    <input type="text" name="fname" class="form-control" placeholder="Ex. Meshy" id="fname">
+                    <label for="last name" class="form-label">Last name</label>
+                    <input type="last name" name="lname" class="form-control" placeholder="Ex. Mialla" id="lname">
+                </div>
+                <div class="col-md-4 px-5">
+                    <label for="phone number" class="form-label">Phone number</label>
+                    <input type="text" name="pnumber" class="form-control" placeholder="+255 684 198 345" id="pnumber">
+                    <label for="Phone" class="form-label">Email</label>
+                    <input type="text" name="email" class="form-control" id="email" placeholder="Ex. meshy112@outlook.com">
+                </div>
+
+                <div class="container-sm col-lg-8 col-md-8 px-5">
+                    <div class="">
+                        <label for="exampleFormControlTextarea1" class="form-label"></label>
+                        <textarea class="form-control" id="query" rows="3" placeholder="How can we help you?"></textarea>
+                    </div>
+                </div>
+
+
+                <div class="container-sm col-md-8 text-center d-grid px-5">
+                    <button type="submit" class="btn btn-success btn-block" id="submit" onclick="myFunction()" value="submit">Submit</button>
+                </div>
+
+                <br>
+
+
+            </form>
+        </div>
+        </div>
+    </section>
+
+    <section class="text-center justify-content-center py-5 bg-light">
+        <div class="containter-fluid ">
+            <div class="container-sm pt-5 ">
+                <div class=" row justify-content-center align-items-center ">
+                    <div class="col-sm text-center px-2">
+                        <img src="./Assets/alex.jpg " class="img-thumbnail rounded shadow px-2" alt=" ">
+                        <caption>Alex Mkwizu</caption>
+                        <img src="./Assets/meshy.jpg " class="img-thumbnail rounded shadow " alt=" ">
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="container-xxl pt-5">
+        <footer class="text-center" style="background-color:rgba(0, 102, 22, 0.055);border-bottom-left-radius: 25px;border-bottom-right-radius: 25px;">
+            <!-- Grid container -->
+            <div class="container">
+                <!-- Section: Social media -->
+                <section class="mb-sm-1">
+                    <div class="container row-2">
+                        <!-- <ul>
+                            <a class="bi bi-instagram bi-lg px-4 li-disabled" href="https://www.instagram.com/mymiallah/"></a>
+
+                            <a class="bi bi-twitter bi-lg px-4 " href="https://twitter.com/mmialla"> </i>
+
+                                <a class="bi bi-github bi-lg px-4 " href="https://github.com/Mmialla"></a>
+
+                                <a class="bi bi-envelope bi-lg px-4 " href="meshy112@gmail.com"></a> -->
+
+                        <a class="btn btn-none btn-circle btn-outline-white btn-lg bi-instagram bg-transparent" href="https://www.instagram.com/mymiallah/"></a>
+
+                        <a class="btn btn-none btn-circle btn-outline-white btn-lg bi-twitter bg-transparent" href="https://twitter.com/mmialla"></a>
+
+                        <a class="btn btn-none btn-circle btn-outline-white btn-lg bi-github bg-transparent" href="https://github.com/Mmialla"></a>
+
+                        <a class="btn btn-none btn-circle btn-outline-white btn-lg bi-envelope bg-transparent" href="meshy112@gmail.com"></a>
+
+                        </ul>
+                        <hr class="bg-dark">
+                        <div class="text-center ">
+                            <p style="color:black;">© 2021 Copyright, All rights reserve</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            </div>
+        </footer>
+    </section>
+
+
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous ">
+    </script>
 </body>
 
 </html>
